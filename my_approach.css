@@ -1,0 +1,138 @@
+body{
+    display: flex;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+}
+img{
+    max-width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+main{
+    background-color: white;
+    width: 45rem;
+    display: grid;
+    gap: 1%;
+    grid-template-rows: 30% 40% 30%;
+    height: 180vh;
+    padding: 5%;
+}
+.header_text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-family: sans-serif;
+    font-size: 30px;
+    font-weight: 900;
+}
+.header_text2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: red;
+}
+
+.part_1{
+display: grid;
+grid-template-rows: 30% 1fr;
+}
+.part1_bottom_elements{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.contenent{
+    display: grid;
+    grid-template-rows: 60% 1fr 1fr;
+    gap: 20px;
+    text-align: center;
+    color: black;
+    width: 25%;
+}
+.contenent_top{
+    font-size: 100px;
+    font-weight: bold;
+}
+.contenent_center{
+    font-weight: bold;
+}
+.part2_bottom_elements{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.part2_contenent{
+    display: grid;
+    grid-template-rows: 1fr 10% 1fr;
+    gap: 10px; justify-content: center;
+}
+.part2_contenent_top{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+}
+
+.part2_contenent_center{
+    font-weight: bold;
+}
+.part2_contenentbnt{
+    color: rgb(143, 144, 146);
+}
+
+.part_3{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    
+}
+.part3_bottom_element{
+    height: 10rem;
+    background: linear-gradient(to right, rgb(114, 112, 211), lightskyblue, rgb(90, 163, 247));
+    width: 42rem;
+    border-radius: 1.5rem;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.part_3_element2
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    color: black;
+    height: 1rem;
+    width: 25rem;
+    padding: 3%;
+gap: 30%;
+    border-radius: 1.5rem;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+#contact{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20%;
+    height: 150%;
+    background: linear-gradient(to right, rgb(114, 112, 211), lightskyblue, rgb(90, 163, 247));
+    border-radius: 1rem;
+}
+
+.header_textPT2{
+    margin-top: 7%;
+}
