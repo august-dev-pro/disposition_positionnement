@@ -136,3 +136,13 @@ a{
 .header_textPT2{
     margin-top: 7%;
 }
+
+.input{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: 150%;
+    border-radius: 1rem;
+    border: none;
+}
